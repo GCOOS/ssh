@@ -1,0 +1,21 @@
+version: "3"
+services:
+  web:
+    build: ./
+    image: skobara/ssh
+    container_name: ssh
+    ports:
+      - "8003:80"
+    volumes:
+      - "./dist/:/usr/share/nginx/html"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.frontend.rule=Host:geo.gcoos.org;PathPrefixStrip:/ssh;ReplacePathRegex: ^/ssh/(.*) /$$1"
+      - "traefik.port=80"
+      - "traefik.docker.network=geo_net"
+    networks:
+      - geo_net
+
+networks:
+  geo_net:
+    external: true
