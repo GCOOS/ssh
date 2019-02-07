@@ -8,10 +8,10 @@
           <i class="fas fa-home"></i>
         </b-navbar-brand>
         <b-navbar-nav>
-          <b-nav-item href="/ssh">
+          <b-nav-item href="/ssh/">
             <i class="fas fa-file-download"></i>&nbsp;Data
           </b-nav-item>
-          <b-nav-item href="calculation/">
+          <b-nav-item href="/ssh/calculation/">
             <i class="fas fa-cog"></i>&nbsp;Process
           </b-nav-item>
         </b-navbar-nav>

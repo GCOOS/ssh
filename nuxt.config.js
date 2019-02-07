@@ -107,9 +107,6 @@ module.exports = {
    ** Global CSS
    */
   css: [{
-      src: '~assets/css/main.css'
-    },
-    {
       src: '~assets/css/menu.css'
     },
     {
@@ -117,6 +114,9 @@ module.exports = {
     },
     {
       src: '~assets/css/footer.css'
+    },
+    {
+      src: '~assets/css/main.css'
     }
   ],
 
