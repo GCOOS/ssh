@@ -25,7 +25,15 @@
         </b-col>
       </b-row>
       <br>
-      <h2>Animation & NetCDF files</h2>
+      <h2>Animation & NetCDF files
+        <small>
+          (
+          <a
+            href="https://ioos.github.io/ioos-netcdf/ioos-netcdf-metadata-description-v1-1.html#ioos-netcdf-metadata-profile-attributes"
+            target="_blank"
+          >IOOS-compliant data</a>)
+        </small>
+      </h2>
       <hr>
       <b-row>
         <b-col sm="6" md="4" lg="3">
@@ -43,7 +51,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2004.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2004_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -65,7 +73,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2005.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2005_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -87,7 +95,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2006.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2006_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -109,7 +117,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2007.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2007_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -131,7 +139,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2008.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2008_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -153,7 +161,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2009.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2009_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -175,7 +183,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2010.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2010_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -197,7 +205,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2011.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2011_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -219,7 +227,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2012.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2012_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -241,7 +249,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2013.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2013_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -263,7 +271,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_wrt_model_2014.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2014_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -285,7 +293,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2015.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2015_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -307,7 +315,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2016.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2016_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
@@ -329,7 +337,29 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2017.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2017_2.nc"
+                role="button"
+              >Download NetCDF File</a>
+            </cms-plugin>
+          </p>
+        </b-col>
+
+        <b-col sm="6" md="4" lg="3">
+          <video style="width:100%;" controls>
+            <source src="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2018.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+          <p style="text-align: center;">2018</p>
+          <p style="text-align: center;">
+            <cms-plugin
+              alt="Link/Button - Download NetCDF File "
+              id="6300"
+              render-plugin="true"
+              title="Link/Button - Download NetCDF File"
+            >
+              <a
+                class="btn btn-success btn-sm"
+                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2018_2.nc"
                 role="button"
               >Download NetCDF File</a>
             </cms-plugin>
