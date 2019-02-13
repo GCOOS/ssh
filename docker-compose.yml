@@ -4,6 +4,7 @@ services:
     build: ./
     image: skobara/ssh
     container_name: ssh
+    restart: always
     ports:
       - "8003:80"
     volumes:
