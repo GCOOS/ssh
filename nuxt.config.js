@@ -143,7 +143,13 @@ module.exports = {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
-
+  /*
+   ** Bootstrap-vue configuration
+   */
+  bootstrapVue: {
+    bootstrapCSS: true, // or false for customized CSS
+    bootstrapVueCSS: true
+  },
   router: {
     base: '/ssh/'
   },

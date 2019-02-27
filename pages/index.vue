@@ -25,16 +25,17 @@
         </b-col>
       </b-row>
       <br>
-      <h2>
-        Animation & NetCDF files
-        <small>
-          (
-          <a
-            href="https://ioos.github.io/ioos-netcdf/ioos-netcdf-metadata-description-v1-1.html#ioos-netcdf-metadata-profile-attributes"
-            target="_blank"
-          >IOOS-compliant data</a>)
-        </small>
-      </h2>
+      <h2>Animation & NetCDF files</h2>
+      <p>
+        Note: all netcdf files are version4 and
+        <a
+          href="https://compliance.ioos.us/index.html"
+          target="_blank"
+        >IOOS-compliant</a>. Also recasted with signed variables. Questions:
+        <a
+          href="mailto:info@gcoos.org"
+        >info@gcoos.org</a>
+      </p>
       <hr>
       <b-row>
         <b-col sm="6" md="4" lg="3">
