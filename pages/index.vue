@@ -15,11 +15,11 @@
             to download the data file or to view an animation of the data.
           </p>
           <p>
-            For more information and to see which other years are available, visit the Colorado Center for Astrodynamics Research (CCAR) Global Historical gridded SSH data viewer website: (
+            For more information and to see which other years are available, visit the Colorado Center for Astrodynamics Research (CCAR) Global Historical gridded SSH data viewer
             <a
               href="http://eddy.colorado.edu/ccar/ssh/hist_global_grid_viewer"
               target="_blank"
-            >http://eddy.colorado.edu/ccar/ssh/hist_global_grid_viewer</a>) and/or contact Robert Leben (
+            >website</a> and/or contact Robert Leben (
             <a href="mailto:leben@colorado.edu">leben@colorado.edu</a>).
           </p>
         </b-col>
