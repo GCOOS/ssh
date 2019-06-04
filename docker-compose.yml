@@ -11,7 +11,7 @@ services:
       - "./:/usr/src/app"
     labels:
       - "traefik.enable=true"
-      - "traefik.frontend.rule=Host:geo.gcoos.org;PathPrefixStrip:/ssh"
+      - "traefik.frontend.rule=Host:geo.gcoos.org;PathPrefix:/ssh"
       - "traefik.port=3000"
       - "traefik.docker.network=geo_net"
     networks:
