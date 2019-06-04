@@ -6,13 +6,13 @@ services:
     container_name: ssh
     restart: always
     ports:
-      - "8003:80"
+      - "8003:3000"
     volumes:
-      - "./dist/:/usr/share/nginx/html"
+      - "./:/usr/src/app"
     labels:
       - "traefik.enable=true"
-      - "traefik.frontend.rule=Host:geo.gcoos.org;PathPrefixStrip:/ssh;ReplacePathRegex: ^/ssh/(.*) /$$1"
-      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:geo.gcoos.org;PathPrefixStrip:/ssh"
+      - "traefik.port=3000"
       - "traefik.docker.network=geo_net"
     networks:
       - geo_net

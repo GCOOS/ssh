@@ -372,11 +372,4 @@
   </div>
 </template>
 
-<style scoped>
-/* the setting below is required for safari */
-.row:before,
-.row:after {
-  display: inline-block;
-}
-</style>
 
