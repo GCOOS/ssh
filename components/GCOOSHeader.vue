@@ -10,65 +10,131 @@
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <b-nav-item-dropdown text="ABOUT US" right class="gcoos_nav_item">
-            <b-dropdown-item href="https://gcoos.org/about-us/mission/">Mission</b-dropdown-item>
+            <b-dropdown-item href="https://gcoos.org/about-us/mission/"
+              >Mission</b-dropdown-item
+            >
             <b-dropdown-item
               href="https://gcoos.org/about-us/board-of-directors-staff/"
-            >Board of Directors &#038; Staff</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/about-us/newsroom/">Newsroom</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/about-us/strategic-plan/">Strategic Plan</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/about-us/contact-us/">Contact Us</b-dropdown-item>
+              >Board of Directors &#038; Staff</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/about-us/newsroom/"
+              >Newsroom</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/about-us/strategic-plan/"
+              >Strategic Plan</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/about-us/contact-us/"
+              >Contact Us</b-dropdown-item
+            >
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown text="FOCUS AREAS" right class="gcoos_nav_item">
             <b-dropdown-item
               href="https://gcoos.org/focus-areas/marine-operations/"
-            >Marine Operations</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/focus-areas/coastal-hazards/">Coastal Hazards</b-dropdown-item>
+              >Marine Operations</b-dropdown-item
+            >
+            <b-dropdown-item
+              href="https://gcoos.org/focus-areas/coastal-hazards/"
+              >Coastal Hazards</b-dropdown-item
+            >
             <b-dropdown-item
               href="https://gcoos.org/focus-areas/healthy-ecosystems-living-resources/"
-            >Healthy Ecosystems &#038; Living Resources</b-dropdown-item>
+              >Healthy Ecosystems &#038; Living Resources</b-dropdown-item
+            >
             <b-dropdown-item
               href="https://gcoos.org/focus-areas/human-health-safety/"
-            >Human Health &#038; Safety</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/long-term-change/">Long-Term Change</b-dropdown-item>
+              >Human Health &#038; Safety</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/long-term-change/"
+              >Long-Term Change</b-dropdown-item
+            >
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown text="RESOURCES" right class="gcoos_nav_item">
-            <b-dropdown-item href="https://gcoos.org/resources/for-educators/">For Educators</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/resources/for-scientists/">For Scientists</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/resources/for-industry/">For Industry</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/resources/for-the-public/">For the Public</b-dropdown-item>
+            <b-dropdown-item href="https://gcoos.org/resources/for-educators/"
+              >For Educators</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/resources/for-scientists/"
+              >For Scientists</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/resources/for-industry/"
+              >For Industry</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/resources/for-the-public/"
+              >For the Public</b-dropdown-item
+            >
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown text="GET ENGAGED" right class="gcoos_nav_item">
-            <b-dropdown-item href="https://gcoos.org/get-engaged/join/">Join</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/get-engaged/members/">Members</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/get-engaged/industry/">Industry</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/get-engaged/data-partners/">Data Partners</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/get-engaged/researchers/">Researchers</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/get-engaged/educators/">Educators</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/about-us/newsroom/">Media</b-dropdown-item>
-            <b-dropdown-item href="https://gcoos.org/get-engaged/newsletter/">Newsletter</b-dropdown-item>
+            <b-dropdown-item href="https://gcoos.org/get-engaged/join/"
+              >Join</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/get-engaged/members/"
+              >Members</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/get-engaged/industry/"
+              >Industry</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/get-engaged/data-partners/"
+              >Data Partners</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/get-engaged/researchers/"
+              >Researchers</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/get-engaged/educators/"
+              >Educators</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/about-us/newsroom/"
+              >Media</b-dropdown-item
+            >
+            <b-dropdown-item href="https://gcoos.org/get-engaged/newsletter/"
+              >Newsletter</b-dropdown-item
+            >
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown text="DATA PORTAL" right class="gcoos_nav_item">
-            <b-dropdown-item href="http://data.gcoos.org/">Regional Assets</b-dropdown-item>
-            <b-dropdown-item href="http://data.gcoos.org/monitoring.php">Data Flow Monitoring</b-dropdown-item>
-            <b-dropdown-item href="http://data.gcoos.org/directAccess.php">HTTP Data Request</b-dropdown-item>
-            <b-dropdown-item href="http://data.gcoos.org/sos.php">Sensor Observing Services</b-dropdown-item>
-            <b-dropdown-item href="http://data.gcoos.org/waf.php">Web Accessible Folder</b-dropdown-item>
-            <b-dropdown-item href="http://data.gcoos.org/erddap.php">ERDDAP Service</b-dropdown-item>
+            <b-dropdown-item href="http://data.gcoos.org/"
+              >Regional Assets</b-dropdown-item
+            >
+            <b-dropdown-item href="http://data.gcoos.org/monitoring.php"
+              >Data Flow Monitoring</b-dropdown-item
+            >
+            <b-dropdown-item href="http://data.gcoos.org/directAccess.php"
+              >HTTP Data Request</b-dropdown-item
+            >
+            <b-dropdown-item href="http://data.gcoos.org/sos.php"
+              >Sensor Observing Services</b-dropdown-item
+            >
+            <b-dropdown-item href="http://data.gcoos.org/waf.php"
+              >Web Accessible Folder</b-dropdown-item
+            >
+            <b-dropdown-item href="http://data.gcoos.org/erddap.php"
+              >ERDDAP Service</b-dropdown-item
+            >
             <b-dropdown-item
               href="http://mmisw.org/ont/gcoos/parameter"
               target="_blank"
-            >Vocabularies</b-dropdown-item>
-            <b-dropdown-item href="http://data.gcoos.org/downloads.php">Tools & Modules</b-dropdown-item>
+              >Vocabularies</b-dropdown-item
+            >
+            <b-dropdown-item href="http://data.gcoos.org/downloads.php"
+              >Tools & Modules</b-dropdown-item
+            >
           </b-nav-item-dropdown>
 
-          <b-nav-item-dropdown text="PRODUCTS & SERVICES" right class="gcoos_nav_item">
-            <b-dropdown-item href="https://products.gcoos.org/">Stations Map</b-dropdown-item>
-            <b-dropdown-item href="https://products.gcoos.org/search">Search All Products</b-dropdown-item>
-            <b-dropdown-item href="https://products.gcoos.org/category">Categories</b-dropdown-item>
+          <b-nav-item-dropdown
+            text="PRODUCTS & SERVICES"
+            right
+            class="gcoos_nav_item"
+          >
+            <b-dropdown-item href="https://products.gcoos.org/"
+              >Gulf of Mexico Observing Assets</b-dropdown-item
+            >
+            <b-dropdown-item href="https://products.gcoos.org/search"
+              >Search All Products</b-dropdown-item
+            >
+            <b-dropdown-item href="https://products.gcoos.org/category"
+              >Categories</b-dropdown-item
+            >
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
@@ -84,7 +150,10 @@
           </a>
         </span>
         <span class="social_list">
-          <a target="_blank" href="https://www.youtube.com/channel/UCLIjMeR9opm2f6S7uAJWLlQ">
+          <a
+            target="_blank"
+            href="https://www.youtube.com/channel/UCLIjMeR9opm2f6S7uAJWLlQ"
+          >
             <i class="fab fa-youtube"></i>
           </a>
         </span>

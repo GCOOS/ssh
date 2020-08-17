@@ -4,19 +4,19 @@
     <b-navbar toggleable="md" type="dark" variant="dark">
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse is-nav id="nav-collapse">
-        <b-navbar-brand href="https://products.gcoos.org">
+        <b-navbar-brand href="/ssh/">
           <i class="fas fa-home"></i>
         </b-navbar-brand>
         <b-navbar-nav>
-          <b-nav-item href="/ssh/">
+          <b-nav-item href="/ssh/data/">
             <i class="fas fa-file-download"></i>&nbsp;Data
           </b-nav-item>
           <b-nav-item href="/ssh/calculation/">
             <i class="fas fa-cog"></i>&nbsp;Process
           </b-nav-item>
         </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>&nbsp;
+      </b-collapse> </b-navbar
+    >&nbsp;
   </div>
 </template>
 

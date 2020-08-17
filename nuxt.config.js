@@ -90,7 +90,6 @@ module.exports = {
    */
   modules: [
     "@nuxtjs/axios",
-    "@nuxtjs/pwa",
     "@nuxtjs/sentry",
     // cache with options
     [
