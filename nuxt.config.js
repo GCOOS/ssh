@@ -1,89 +1,100 @@
 module.exports = {
-  mode: 'universal',
+  mode: "universal",
 
   /*
    ** Headers of the page
    */
   head: {
     title: "Sea Surface Height",
-    meta: [{
-        charset: 'utf-8'
+    meta: [
+      {
+        charset: "utf-8",
       },
       {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
+        name: "viewport",
+        content: "width=device-width, initial-scale=1",
       },
       {
-        hid: 'description',
-        name: 'description',
-        content: 'The sea surface height (SSH) or height of the ocean surface is affected by tidal forces, ocean circulation and variations in the gravitational field. The daily variation from the mean sea surface height is the sea surface height anomaly (SSHa), which is observed by satellite altimeters. The observations from multiple altimetry satellites are merged into daily gridded data maps (historical data maps)'
-      }
+        hid: "description",
+        name: "description",
+        content:
+          "The sea surface height (SSH) or height of the ocean surface is affected by tidal forces, ocean circulation and variations in the gravitational field. The daily variation from the mean sea surface height is the sea surface height anomaly (SSHa), which is observed by satellite altimeters. The observations from multiple altimetry satellites are merged into daily gridded data maps (historical data maps)",
+      },
     ],
-    link: [{
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/ssh/favicon.ico'
+    link: [
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "/ssh/favicon.ico",
       },
       {
         /* Google Font */
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"
+        href:
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons",
       },
       {
         /* Adobe Proxima Nova */
         rel: "stylesheet",
-        href: "https://use.typekit.net/pel5bpx.css"
+        href: "https://use.typekit.net/pel5bpx.css",
       },
       {
         /* Font Awesome */
         rel: "stylesheet",
         href: "https://use.fontawesome.com/releases/v5.8.1/css/all.css",
-        integrity: "sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf",
-        crossorigin: "anonymous"
-      }
+        integrity:
+          "sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf",
+        crossorigin: "anonymous",
+      },
     ],
-    script: [{
+    script: [
+      {
         /* jQuery for ajax */
-        src: "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        src: "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js",
       },
       {
-        src: "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js",
       },
       {
         /* moment timezone */
-        src: "https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data.min.js"
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data.min.js",
       },
       {
         /* d3 */
-        src: "https://d3js.org/d3.v5.min.js"
-      }
-    ]
+        src: "https://d3js.org/d3.v5.min.js",
+      },
+    ],
   },
   /*
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#00a2cc'
+    color: "#00a2cc",
   },
 
   /*
    ** Global CSS
    */
-  css: [{
-      src: "~assets/css/webflow.css"
+  css: [
+    {
+      src: "~assets/css/webflow.css",
     },
     {
-      src: '~assets/css/main.css'
-    }
+      src: "~assets/css/main.css",
+    },
   ],
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{
-    src: '~plugins/ga.js',
-    ssr: false
-  }],
+  plugins: [
+    {
+      src: "~plugins/ga.js",
+      ssr: false,
+    },
+  ],
 
   /*
    ** Nuxt.js modules
@@ -96,27 +107,29 @@ module.exports = {
       "@nuxtjs/component-cache",
       {
         max: 10000,
-        maxAge: 1000 * 60 * 60
-      }
+        maxAge: 1000 * 60 * 60,
+      },
     ],
     "bootstrap-vue/nuxt",
+    "@nuxt/content",
   ],
+  content: {
+    // Options
+  },
   /*
    ** Bootstrap-vue configuration
    */
   bootstrapVue: {
     bootstrapCSS: true, // or false for customized CSS
-    bootstrapVueCSS: true
+    bootstrapVueCSS: true,
   },
-
   /*
    ** Axios module configuration
    */
   axios: {},
   router: {
-    base: '/ssh/'
+    base: "/ssh/",
   },
-
   /*
    ** Build configuration
    */
@@ -124,8 +137,6 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {
-
-    }
-  }
-}
+    extend(config, ctx) {},
+  },
+};

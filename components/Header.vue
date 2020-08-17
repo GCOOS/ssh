@@ -9,10 +9,13 @@
         </b-navbar-brand>
         <b-navbar-nav>
           <b-nav-item href="/ssh/data/">
-            <i class="fas fa-file-download"></i>&nbsp;Data
+            <i class="fas fa-file-download"></i>&nbsp;Download Data
           </b-nav-item>
           <b-nav-item href="/ssh/calculation/">
-            <i class="fas fa-cog"></i>&nbsp;Process
+            <i class="fas fa-square-root-alt"></i>&nbsp;Formula
+          </b-nav-item>
+          <b-nav-item href="/ssh/notebook/">
+            <i class="fas fa-laptop-code"></i>&nbsp;Notebook Examples
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse> </b-navbar

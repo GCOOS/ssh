@@ -1,8 +1,9 @@
 <template>
   <div class="canvas">
-    <b-breadcrumb :items="items" />
     <b-container>
-      <h2>Calculation of sea surface height anomaly</h2>
+      <h2 style="text-align:center;">
+        Calculation of sea surface height anomaly
+      </h2>
       <hr />
       <b-row>
         <b-col>
