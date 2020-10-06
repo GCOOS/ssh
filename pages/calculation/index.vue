@@ -1,7 +1,7 @@
 <template>
   <div class="canvas">
     <b-container>
-      <h2 style="text-align:center;">
+      <h2 style="text-align: center">
         Calculation of sea surface height anomaly
       </h2>
       <hr />
@@ -151,3 +151,9 @@
     </b-container>
   </div>
 </template>
+
+<style lang="css">
+.canvas {
+  font-size: 18px;
+}
+</style>
