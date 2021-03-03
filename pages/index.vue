@@ -2,7 +2,7 @@
   <div class="canvas">
     <b-container fluid>
       <iframe
-        src="https://tamu.maps.arcgis.com/apps/webappviewer/index.html?id=7a379f7c882746099c64796ecf7bd73d"
+        src="https://tamu.maps.arcgis.com/apps/webappviewer/index.html?id=502172a778f24b5189db313514c178e1"
         title="GCOOS Sea Surface Height in the Gulf of Mexico"
         style="min-height:80vh;"
         height="100%"
