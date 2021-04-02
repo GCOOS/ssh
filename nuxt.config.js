@@ -1,6 +1,4 @@
 module.exports = {
-  mode: "universal",
-
   /*
    ** Headers of the page
    */
@@ -106,11 +104,11 @@ module.exports = {
       },
       {
         /* Google Maps API */
-        src: "https://maps.googleapis.com/maps/api/js?key=AIzaSyB1Qb_BhHlGWmRWf4PQrgTcG2xZai5ENP8&libraries=places"
+        src: "https://maps.googleapis.com/maps/api/js?key="+process.env.GOOGLE_MAP_API_KEY+"&libraries=places"
       },
       {
         /* Leaflet GoogleMutant */
-        src: "https://unpkg.com/leaflet.gridlayer.googlemutant@latest/Leaflet.GoogleMutant.js"
+        src: "https://unpkg.com/leaflet.gridlayer.googlemutant@latest/dist/Leaflet.GoogleMutant.js"
       },
       {
         /* for leaflet time-dimension */
@@ -174,6 +172,9 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
+  buildModules: [
+    '@nuxtjs/dotenv',
+  ],
   modules: [
     // cache with options
     [
@@ -207,20 +208,6 @@ module.exports = {
      ** You can extend webpack config here
      */
     extend(config, ctx) {
-      const vueLoader = config.module.rules.find(rule => rule.loader === 'vue-loader');
-      vueLoader.options.transformAssetUrls = {
-        video: ['src', 'poster'],
-        source: 'src',
-        img: 'src',
-        image: 'xlink:href',
-        'b-img': 'src',
-        'b-img-lazy': ['src', 'blank-src'],
-        'b-card': 'img-src',
-        'b-card-img': 'img-src',
-        'b-card-img-lazy': ['src', 'blank-src'],
-        'b-carousel-slide': 'img-src',
-        'b-embed': 'src'
-      }
     },
     babel: {
       compact: true
