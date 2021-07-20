@@ -194,7 +194,7 @@ module.exports = {
    ** Bootstrap-vue configuration
    */
   bootstrapVue: {
-    bootstrapCSS: true, // or false for customized CSS
+    // bootstrapCSS: true, // or false for customized CSS
     bootstrapVueCSS: true,
   },
   router: {
