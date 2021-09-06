@@ -11,11 +11,14 @@
           <!-- <b-nav-item href="/ssh/timeseries">
             <i class="fas fa-caret-square-right"></i>&nbsp;Map Viewer
           </b-nav-item> -->
-          <b-nav-item href="/ssh/data1/">
-            <i class="fas fa-file-download"></i>&nbsp;Data (2004-2010)
+          <b-nav-item href="/ssh/data3/">
+            <i class="fas fa-file-download"></i>&nbsp;Data (2021-)
           </b-nav-item>
           <b-nav-item href="/ssh/data2/">
             <i class="fas fa-file-download"></i>&nbsp;Data (2011-2020)
+          </b-nav-item>
+          <b-nav-item href="/ssh/data1/">
+            <i class="fas fa-file-download"></i>&nbsp;Data (2004-2010)
           </b-nav-item>
           <b-nav-item href="/ssh/calculation/">
             <i class="fas fa-square-root-alt"></i>&nbsp;Process
