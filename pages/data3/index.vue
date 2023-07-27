@@ -6,7 +6,7 @@
       <b-row>
         <b-col>
           <p>
-            The sea surface height (SSH) or height of the ocean surface is
+            The Sea Surface Height (SSH) or height of the ocean surface is
             affected by tidal forces, ocean circulation and variations in the
             gravitational field. The daily variation from the mean sea surface
             height is the sea surface height anomaly (SSHa), which is observed
@@ -44,12 +44,12 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2021_jan_jun.mp4"
+              src="https://geo.gcoos.org/data/ssh/gom/gom_ssh_2021.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
           </video>
-          <p style="text-align: center">2021 January - June</p>
+          <p style="text-align: center">2021</p>
           <p style="text-align: center">
             <cms-plugin
               alt="Link/Button - Download NetCDF File "
@@ -59,7 +59,33 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2021_jan_jun.nc"
+                href="https://geo.gcoos.org/data/ssh/gom/gom_ssh_2021.nc"
+                role="button"
+                >Download NetCDF File</a
+              >
+            </cms-plugin>
+          </p>
+        </b-col>
+
+        <b-col sm="6" md="4" lg="3">
+          <video style="width: 100%" controls>
+            <source
+              src="https://geo.gcoos.org/data/ssh/gom/gom_ssh_2022.mp4"
+              type="video/mp4"
+            />
+            <source src="movie.ogg" type="video/ogg" />
+          </video>
+          <p style="text-align: center">2022</p>
+          <p style="text-align: center">
+            <cms-plugin
+              alt="Link/Button - Download NetCDF File "
+              id="6300"
+              render-plugin="true"
+              title="Link/Button - Download NetCDF File"
+            >
+              <a
+                class="btn btn-success btn-sm"
+                href="https://geo.gcoos.org/data/ssh/gom/gom_ssh_2022.nc"
                 role="button"
                 >Download NetCDF File</a
               >
