@@ -228,7 +228,7 @@
                     <a href="https://gcoos.org">
                       <img
                         src="~assets/images/logo/footer-logo.png"
-                        alt="GCOOS: Gulf of Mexico Coastal Ocean Observing System"
+                        alt="GCOOS: Gulf of America Coastal Ocean Observing System"
                       >
                     </a>
                   </span>
@@ -322,8 +322,8 @@
                   <p>
                     <a
                       href="https://gcoos.org"
-                      title="Gulf of Mexico Coastal Ocean Observing System"
-                    >Gulf of Mexico</a>
+                      title="Gulf of America Coastal Ocean Observing System"
+                    >Gulf of America</a>
                   </p>
                   <p>
                     <a
@@ -520,7 +520,7 @@
           <div class="container">
             <span
               class="inline"
-            >&copy;2019 Gulf of Mexico Coastal Ocean Observing System. All Rights Reserved</span>
+            >&copy;2019 Gulf of America Coastal Ocean Observing System. All Rights Reserved</span>
             <span class="inline">
               <span class="bull">&bull;</span>
               <a href="https://gcoos.org/privacy-statement">Privacy Statement</a>

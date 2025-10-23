@@ -6,25 +6,36 @@
       <b-row>
         <b-col>
           <p>
-            The sea surface height (SSH) or height of the ocean surface is
-            affected by tidal forces, ocean circulation and variations in the
-            gravitational field. The daily variation from the mean sea surface
-            height is the sea surface height anomaly (SSHa), which is observed
-            by satellite altimeters. The observations from multiple altimetry
-            satellites are merged into daily gridded data maps (historical data
-            maps). Robert Leben (
-            <a href="mailto:leben@colorado.edu">leben@colorado.edu</a>) from the
-            Colorado Center for Astrodynamics Research (CCAR) produces these
-            gridded data maps. For convenience purposes, the daily data fields
-            were combined into yearly data files ranging from 2004 through
-            present. Click on link for the corresponding year to download the
-            data file or to view an animation of the data.
+            The ADT data served here is <b>E.U. Copernicus Marine Service Information; https://doi.org/10.48670/moi-00148.</b>
           </p>
           <p>
-            For more information and to see which other years are available,
-            visit the Colorado Center for Astrodynamics Research (CCAR) or
-            contact Robert Leben (
-            <a href="mailto:leben@colorado.edu">leben@colorado.edu</a>).
+            The Sea Surface Height (SSH) or height of the ocean surface is
+            affected by tidal forces, ocean circulation and variations in the
+            gravitational field. The sea surface height above the Geoid is the 
+            Absolute Dynamic Topography (ADT), which is observed by satellite 
+ 	    altimeters. For convenience purposes, this site redistributes the Copernicus 
+            ADT data as yearly data files, along with ADT contour animations generated 
+            by GCOOS.
+          </p>
+          <p>
+            The description of the original Copernicus data product:
+          </p>
+          <p style="font-size: small">
+            <i>Altimeter satellite gridded Sea Level Anomalies (SLA) computed with 
+            respect to a twenty-year [1993, 2012] mean. The SLA is estimated by 
+            Optimal Interpolation, merging the L3 along-track measurement from the 
+            different altimeter missions available. Part of the processing is fitted 
+            to the Global ocean. (see QUID document or http://duacs.cls.fr pages for 
+            processing details). 
+            The product gives additional variables (i.e. Absolute Dynamic Topography 
+            and geostrophic currents (absolute and anomalies)). It serves in delayed-time 
+            applications. 
+            This product is processed by the DUACS multimission altimeter data processing system.</i>
+          </p>
+          <p>
+            For more information about the Gulf of America Sea Surface Height, contact Robert Leben (
+            <a href="mailto:leben@colorado.edu">leben@colorado.edu</a>). For more information about the 
+            Copernicus data, visit <a href="http://marine.copernicus.eu">http://marine.copernicus.eu</a>.
           </p>
         </b-col>
       </b-row>
@@ -34,7 +45,7 @@
         Note: all netcdf files are version4 and
         <a href="https://compliance.ioos.us/index.html" target="_blank"
           >IOOS-compliant</a
-        >. Also recasted with signed variables. Questions:
+        >. Questions:
         <a href="mailto:info@gcoos.org">info@gcoos.org</a>
       </p>
       <hr />
@@ -42,7 +53,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2004.mp4"
+              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2004.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -57,7 +68,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2004.nc"
+                href="https://gcoos5.geos.tamu.edu/erddap/files/SSH_GoA_2004/2004.nc"
                 role="button"
                 >Download NetCDF File</a
               >
@@ -68,7 +79,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2005.mp4"
+              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2005.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -83,7 +94,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2005.nc"
+                href="https://gcoos5.geos.tamu.edu/erddap/files/SSH_GoA_2005/2005.nc"
                 role="button"
                 >Download NetCDF File</a
               >
@@ -94,7 +105,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2006.mp4"
+              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2006.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -109,7 +120,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2006.nc"
+                href="https://gcoos5.geos.tamu.edu/erddap/files/SSH_GoA_2006/2006.nc"
                 role="button"
                 >Download NetCDF File</a
               >
@@ -120,7 +131,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2007.mp4"
+              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2007.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -135,7 +146,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2007.nc"
+                href="https://gcoos5.geos.tamu.edu/erddap/files/SSH_GoA_2007/2007.nc"
                 role="button"
                 >Download NetCDF File</a
               >
@@ -146,7 +157,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2008.mp4"
+              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2008.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -161,7 +172,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2008.nc"
+                href="https://gcoos5.geos.tamu.edu/erddap/files/SSH_GoA_2008/2008.nc"
                 role="button"
                 >Download NetCDF File</a
               >
@@ -172,7 +183,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2009.mp4"
+              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2009.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -187,7 +198,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2009.nc"
+                href="https://gcoos5.geos.tamu.edu/erddap/files/SSH_GoA_2009/2009.nc"
                 role="button"
                 >Download NetCDF File</a
               >
@@ -198,7 +209,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2010.mp4"
+              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2010.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -213,7 +224,7 @@
             >
               <a
                 class="btn btn-success btn-sm"
-                href="https://geo.gcoos.org/data/ssh/gom/ssh_gom_2010.nc"
+                href="https://gcoos5.geos.tamu.edu/erddap/files/SSH_GoA_2010/2010.nc"
                 role="button"
                 >Download NetCDF File</a
               >
