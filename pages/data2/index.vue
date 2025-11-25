@@ -53,7 +53,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2011.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2011.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -79,7 +79,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2012.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2012.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -105,7 +105,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2013.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2013.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -131,7 +131,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2014.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2014.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -157,7 +157,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2015.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2015.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -183,7 +183,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2016.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2016.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -209,7 +209,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2017.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2017.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -235,7 +235,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2018.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2018.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -261,7 +261,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2019.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2019.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -287,7 +287,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2020.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2020.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />

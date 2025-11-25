@@ -55,7 +55,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2021.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2021.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -81,7 +81,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2022.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2022.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -107,7 +107,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2023.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2023.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
@@ -133,7 +133,7 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
-              src="https://gcoos4.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2025.mp4"
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2025.mp4"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
