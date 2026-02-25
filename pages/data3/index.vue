@@ -133,6 +133,32 @@
         <b-col sm="6" md="4" lg="3">
           <video style="width: 100%" controls>
             <source
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2024.mp4"
+              type="video/mp4"
+            />
+            <source src="movie.ogg" type="video/ogg" />
+          </video>
+          <p style="text-align: center">2024</p>
+          <p style="text-align: center">
+            <cms-plugin
+              alt="Link/Button - Download NetCDF File "
+              id="6300"
+              render-plugin="true"
+              title="Link/Button - Download NetCDF File"
+            >
+              <a
+                class="btn btn-success btn-sm"
+                href="https://gcoos5.geos.tamu.edu/erddap/files/SSH_GoA_2024/2024.nc"
+                role="button"
+                >Download NetCDF File</a
+              >
+            </cms-plugin>
+          </p>
+        </b-col>
+
+        <b-col sm="6" md="4" lg="3">
+          <video style="width: 100%" controls>
+            <source
               src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2025.mp4"
               type="video/mp4"
             />
@@ -149,6 +175,32 @@
               <a
                 class="btn btn-success btn-sm"
                 href="https://gcoos5.geos.tamu.edu/erddap/files/SSH_GoA_2025/2025.nc"
+                role="button"
+                >Download NetCDF File</a
+              >
+            </cms-plugin>
+          </p>
+        </b-col>
+
+        <b-col sm="6" md="4" lg="3">
+          <video style="width: 100%" controls>
+            <source
+              src="https://gcoos5.geos.tamu.edu/WAF/GoA_SSH/ssh_goa_2026.mp4"
+              type="video/mp4"
+            />
+            <source src="movie.ogg" type="video/ogg" />
+          </video>
+          <p style="text-align: center">2026</p>
+          <p style="text-align: center">
+            <cms-plugin
+              alt="Link/Button - Download NetCDF File "
+              id="6300"
+              render-plugin="true"
+              title="Link/Button - Download NetCDF File"
+            >
+              <a
+                class="btn btn-success btn-sm"
+                href="https://gcoos5.geos.tamu.edu/erddap/files/SSH_GoA_2026/2026.nc"
                 role="button"
                 >Download NetCDF File</a
               >
