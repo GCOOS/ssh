@@ -20,6 +20,9 @@
           <b-nav-item href="/ssh/data1/">
             <i class="fas fa-file-download"></i>&nbsp;Data (2004-2010)
           </b-nav-item>
+          <b-nav-item href="/ssh/ssh_sst/">
+            <i class="fas fa-temperature-high"></i>&nbsp;SST + SSH
+          </b-nav-item>
           <b-nav-item href="/ssh/calculation/">
             <i class="fas fa-square-root-alt"></i>&nbsp;Process
           </b-nav-item>
